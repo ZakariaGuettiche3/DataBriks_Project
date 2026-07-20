@@ -331,7 +331,7 @@ E-Commerce-Data-Engineering-Pipeline/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/ecommerce-data-engineering-pipeline.git
+   git clone https://github.com/<your-username>/DataBriks_Project.git
    cd ecommerce-data-engineering-pipeline
    ```
 
