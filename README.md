@@ -351,45 +351,11 @@ E-Commerce-Data-Engineering-Pipeline/
 
 ---
 
-## ▶️ Usage
-
-Run the pipeline stages **in order** within your Databricks workspace:
-
-| Step | Notebook | Description |
-|---|---|---|
-| 1️⃣ | `01_bronze_ingestion.ipynb` | Ingests raw source data into the Bronze Delta tables |
-| 2️⃣ | `02_silver_transformation.ipynb` | Cleans, validates, and standardizes data into Silver tables |
-| 3️⃣ | `03_gold_aggregation.ipynb` | Builds dimension/fact tables and aggregations into Gold tables |
-
-**Recommended execution methods:**
-- Run notebooks sequentially and manually for exploration/demo purposes
-- Or orchestrate all three stages automatically via a **Databricks Job/Workflow** for production-style, scheduled execution
-
-Once complete, Gold layer tables can be queried directly with **Spark SQL** or connected to **Power BI / Tableau** for reporting.
 
 ---
 
-## 🖼️ Screenshots
 
-<div align="center">
 
-*Add your architecture and pipeline screenshots below to showcase the project visually.*
-
-| Architecture Diagram | Pipeline Run |
-|:---:|:---:|
-| ![Architecture Diagram](images/architecture_diagram.png) | ![Pipeline Screenshot](images/pipeline_screenshot.png) |
-
-</div>
-
-> 📌 Replace the placeholders above with actual screenshots from your Databricks workspace (cluster runs, Delta table previews, job DAGs, etc.) stored in the `images/` folder.
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
----
 
 ## 👤 Author
 
@@ -399,11 +365,10 @@ University of Abdelhamid Mehri – Constantine 2, Algeria (2026)
 
 Passionate about building scalable, production-grade data systems that bridge raw data and actionable business insight — with hands-on experience across Data Engineering, Machine Learning, and NLP.
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](#)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](#)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](#)
 
-> 📌 *Update the badge links above with your actual GitHub, LinkedIn, and email addresses.*
+
+
+
 
 ---
 
