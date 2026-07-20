@@ -318,38 +318,6 @@ E-Commerce-Data-Engineering-Pipeline/
 - [ ] **Machine Learning Integration** — Feature engineering and model training on Gold datasets
 - [ ] **MLOps** — Automated model deployment, monitoring, and retraining pipelines
 
----
-
-## 💻 Installation
-
-### Prerequisites
-- A [Databricks](https://www.databricks.com/) workspace (Community Edition or higher)
-- Python 3.10+
-- Git
-
-### Steps
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/<your-username>/DataBriks_Project.git
-   cd ecommerce-data-engineering-pipeline
-   ```
-
-2. **Install local dependencies** *(optional — for local development/testing)*
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Import into Databricks**
-   - Go to your Databricks workspace
-   - Select **Workspace → Import**
-   - Upload the `notebooks/` folder (or connect the repo via **Repos → Add Repo**)
-
-4. **Attach a cluster**
-   - Create or select an existing Databricks cluster (Spark 3.x runtime recommended)
-   - Attach it to the imported notebooks
-
----
 
 
 ---
